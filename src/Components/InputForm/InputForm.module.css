@@ -1,0 +1,37 @@
+
+.input_form {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    outline-width: 0px;
+    border: 1px solid #e5e7eb;
+}
+
+.send_btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 5px;
+    background-color: rgb(250 204 21);
+    border: 1px solid #e5e7eb;
+}
+
+.geo_btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 5px;
+    background-color: rgb(250 204 21);
+    border: 1px solid #e5e7eb;
+}
+
+.nav_days {
+    display: flex;
+}
+
+.active {
+    color: green;
+}
+
+.today {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.days5 {
+    cursor: pointer;
+}

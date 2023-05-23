@@ -1,0 +1,18 @@
+.parameter_box {
+    display: flex;
+}
+
+.parameter_box:not(:last-child) {
+    margin: 0 0 32px 0;
+}
+
+.name {
+    width: 265px;
+    font-size: 12px;
+    color: #748f9d;
+}
+
+.data {
+    font-size: 12px;
+    max-width: 85px;
+}

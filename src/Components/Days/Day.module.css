@@ -1,0 +1,46 @@
+.daybox {
+    border: 1px solid #d0cfcf;
+    border-radius: 5%;
+    width: 140px;
+    padding: 8px 10px;
+}
+
+.daybox svg {
+    fill: #049ee8;
+    margin: 5px 0;
+}
+
+.daybox:not(:last-child) {
+    margin-right: 3px;
+}
+
+.today {
+
+}
+
+.data {
+    font-size: 12px;
+    color: #b6bccc;
+}
+
+.image {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 7px 0;
+}
+
+.temperature {
+    font-size: 16px;
+}
+
+.pressure {
+    font-size: 12px;
+    color: #b6bccc;
+}
+
+.description {
+    font-size: 12px;
+    color: #b6bccc;
+}

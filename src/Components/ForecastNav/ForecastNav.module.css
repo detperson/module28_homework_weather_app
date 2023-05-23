@@ -1,0 +1,16 @@
+.nav_days {
+    display: flex;
+}
+
+.active {
+    color: green;
+}
+
+.today {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.days5 {
+    cursor: pointer;
+}
