@@ -1,8 +1,8 @@
 .daybox {
     border: 1px solid #d0cfcf;
-    border-radius: 5%;
-    width: 140px;
-    padding: 8px 10px;
+    border-radius: 20px;
+    width: 130px;
+    padding: 10px 12px;
 }
 
 .daybox svg {

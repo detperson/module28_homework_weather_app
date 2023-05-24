@@ -4,8 +4,6 @@ import {WeatherParameter} from "../WeatherParametr/WeatherParameter";
 
 export function WeatherToday({ weather }) {
 
-    console.log('weather from WeatherToday', weather)
-
     function dayConvert(unix_timestamp) {
         let a = new Date(unix_timestamp * 1000)
         let days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота']

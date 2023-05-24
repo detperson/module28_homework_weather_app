@@ -1,12 +1,8 @@
 import React from 'react'
 import s from './WeatherDays.module.css'
-import {Day} from "../Days/Day";
+import {Day} from "../Day/Day";
 
 export function WeatherDays({ weather, weather5Days }) {
-
-    console.log('weather5Days', weather5Days)
-    console.log('weather', weather)
-
     return (
         <div className={s.days}>
             <Day

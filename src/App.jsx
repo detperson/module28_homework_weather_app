@@ -27,9 +27,7 @@ function App() {
         <div className="wrapper">
             <div className="_container">
                 <div className="main-input">
-                    <h1>Weather</h1>
-                    <p>Weather fonts</p>
-                    <p>Погода на русском</p>
+                    <div className='header__logo'>Weather</div>
                     <InputForm onFetchToday={createWeatherArr} onFetch5Days={createWeather5Arr} weatherTime={weatherTime} />
                     {todayOr5Days && <ForecastNav weatherTime={weatherTime} todayOr5Days={todayOr5Days} />}
                 </div>

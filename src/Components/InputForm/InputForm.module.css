@@ -1,37 +1,60 @@
 
 .input_form {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #707070;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    outline-width: 0px;
-    border: 1px solid #e5e7eb;
+    min-width: 148px;
+    /*transition: border-color 0.15s ease-in-out;*/
+}
+
+.input_form:focus {
+    border-color: #049EE8;
+    outline: 0;
+    color: #000000;
 }
 
 .send_btn {
+    font-family: inherit;
+    font-weight: 500;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    margin-left: 5px;
-    background-color: rgb(250 204 21);
-    border: 1px solid #e5e7eb;
+    margin-left: 12px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.send_btn:hover {
+    border-color: #049ee8;
+}
+
+.send_btn:active {
+    background-color: rgba(4, 158, 232, 0.6);
 }
 
 .geo_btn {
+    font-family: inherit;
+    font-weight: 500;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    margin-left: 5px;
-    background-color: rgb(250 204 21);
-    border: 1px solid #e5e7eb;
-}
-
-.nav_days {
-    display: flex;
-}
-
-.active {
-    color: green;
-}
-
-.today {
-    margin-right: 15px;
+    margin-left: 12px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    width: 80px;
     cursor: pointer;
 }
 
-.days5 {
-    cursor: pointer;
+.geo_btn:hover {
+    border-color: #049ee8;
 }
+
+.geo_btn:active {
+    background-color: rgba(4, 158, 232, 0.6);
+}
+

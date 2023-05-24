@@ -1,16 +1,23 @@
 .nav_days {
     display: flex;
+    margin: 12px 0 28px 0;
+    padding-left: 16px;
 }
 
 .active {
-    color: green;
+    color: #049EE8;
+    font-weight: 500;
 }
 
 .today {
-    margin-right: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 36px;
     cursor: pointer;
 }
 
 .days5 {
+    font-size: 16px;
+    line-height: 20px;
     cursor: pointer;
 }

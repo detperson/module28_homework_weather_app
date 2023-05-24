@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import s from "./ForecastNav.module.css";
 
 export function ForecastNav({ weatherTime, todayOr5Days }) {
