@@ -64,3 +64,10 @@
     }
 }
 
+@media (max-width: 360px) {
+    .input_form {
+        width: 110px;
+        min-width: 100px;
+    }
+}
+
