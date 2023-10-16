@@ -6,6 +6,6 @@
 
 @media (max-width: 426px) {
     .days {
-        gap: 5px;
+        gap: 10px;
     }
 }

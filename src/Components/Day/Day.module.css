@@ -1,12 +1,12 @@
-.data_box {
-
-}
-
 .daybox {
     border: 1px solid #d0cfcf;
     border-radius: 20px;
     width: 130px;
     padding: 10px 12px;
+}
+
+.data_box {
+
 }
 
 .daybox svg {
@@ -68,7 +68,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .image {
@@ -76,10 +76,10 @@
     }
 
     .pressure {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .description {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 }
