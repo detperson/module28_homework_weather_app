@@ -30,19 +30,23 @@ export function Day({ temp, data, description, pressure, image}) {
 
     return (
         <div className={s.daybox}>
-            <div className={s.today}>
-                {(new Date().getDay() === new Date(data * 1000).getDay()) ? 'Сегодня' : dayConvert(data)}
+            <div className={s.data_box}>
+                <div className={s.today}>
+                    {(new Date().getDay() === new Date(data * 1000).getDay()) ? 'Сегодня' : dayConvert(data)}
+                </div>
+                <div className={s.data}>{timeConverter(data)}</div>
             </div>
-            <div className={s.data}>{timeConverter(data)}</div>
-            <div
-                className={s.image}
-                style={{
-                    backgroundImage: `url(/images/${image}.png)`,
-                }}
-            />
-            <div className={s.temperature}>{Math.round(temp)}°</div>
-            <div className={s.pressure}>{Math.round(pressure * 0.750064) + ' мм рт. ст.'}</div>
-            <div className={s.description}>{description}</div>
+            <div className={s.indicators}>
+                <div
+                    className={s.image}
+                    style={{
+                        backgroundImage: `url(/images/${image}.png)`,
+                    }}
+                />
+                <div className={s.temperature}>{Math.round(temp)}°</div>
+                <div className={s.pressure}>{Math.round(pressure * 0.750064) + ' мм рт. ст.'}</div>
+                <div className={s.description}>{description}</div>
+            </div>
         </div>
     )
 }

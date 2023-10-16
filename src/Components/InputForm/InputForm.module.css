@@ -58,3 +58,9 @@
     background-color: rgba(4, 158, 232, 0.6);
 }
 
+@media (max-width: 426px) {
+    .input_form {
+        width: 160px;
+    }
+}
+

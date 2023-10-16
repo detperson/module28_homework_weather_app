@@ -1,3 +1,7 @@
+.data_box {
+
+}
+
 .daybox {
     border: 1px solid #d0cfcf;
     border-radius: 20px;
@@ -23,6 +27,10 @@
     color: #b6bccc;
 }
 
+.indicators {
+
+}
+
 .image {
     width: 24px;
     height: 24px;
@@ -43,4 +51,35 @@
 .description {
     font-size: 12px;
     color: #b6bccc;
+}
+
+@media (max-width: 426px) {
+    .daybox {
+        display: flex;
+        width: 100%;
+        height: 45px;
+    }
+
+    .daybox:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .indicators {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 70px;
+    }
+
+    .image {
+        margin: 0px;
+    }
+
+    .pressure {
+        margin-left: 70px;
+    }
+
+    .description {
+        margin-left: 70px;
+    }
 }
